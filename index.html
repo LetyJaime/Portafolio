@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio Leticia Jaime</title>
+        <link rel="preload" href="./css/normalize.css" as="style">
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preload" href="./css/style.css" as="style">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1 class="titulo">
+                <img class="logo" src="./img/LOGOLJ.svg" alt="logotipo">Leticia Jaime
+            </h1>
+            <div class="nav-bg">
+                <nav class="navegacion-principal contenedor1">
+                    <a href="#inicio">Inicio</a>
+                    <a href="./servicios.html">Servicios</a>
+                    <a href="#contacto">Contacto</a>
+                    <a href="/curriculum.html">CV</a>
+                </nav>
+            </div>
+        </header>
+        <section class="hero">
+            <div class="contenido-hero">
+                <h2>Diseño UX y Desarrollo Web</h2>
+                <p class="ciudad">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fd0061" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="11" r="3" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                    </svg>Ciudad de México
+                </p>
+                <!-- Link a WhatsApp -->
+                <a class="boton" href="whatsapp://send?text=Hola, Index.pe&phone=+525518017982&abid=+525518017982>+525518017982">WhatsApp</a>
+            </div>
+        </section>
+        <section>
+            <div class="bienvenida">
+                <img class="foto" src="./img/FotoWeb-Circulo.png" alt="Foto Leticia Jaime">
+                <p class="bienvenida">Bienvenid@ al sitio web.Aquí encontrarás información sobre los servicios que ofrezco, puedes explorar mi portafolio de proyectos de Diseño UX y Desarrollo Web, conocer mi currículum y contactarme. Espero que tengamos la oportunidad de trabajar juntos. Gracias por tu visita!</p>
+            </div>
+        </section>
+        <h3 class="titulosProyectos">Casos Prácticos UX</h3>
+        <main class="grid-portafolio">
+            <section></section>
+            <div>
+                <a target="_blank" href="https://drive.google.com/file/d/16pdJj5-K23WRrvIgTgNOfKEvpZE1uc1e/view?usp=share_link"><img class="img-caso" src="./img/Floreria-Amanecer.png" alt="Caso de Estudio Florería Amanecer"></img></a>
+            </div>
+            <div>
+                <a target="_blank" href="https://drive.google.com/file/d/17WKSySvYCUSEtXQSvVh_daWJz9_JZmud/view?usp=sharing"><img class="img-caso" src="./img/Fuente_Creativa.png" alt="Caso de Estudio Fuente Creativa"></img></a>
+            </div>
+            <div>
+                <a target="_blank" href="https://drive.google.com/file/d/17YVg2xUbQjqPqz35tClyi_-JR5tdDjUf/view?usp=sharing"><img class="img-caso" src="./img/E-Diseno.png" alt="Caso de Estudio E-Diseño"></img></a>
+            </div>
+        </main>
+            <div>
+                <h3 class="titulosProyectos">Proyectos de Desarrollo Web</h3>
+            </div>
+            <section class="grid-portafolio">
+                <div>
+                    <a target="_blank" href="https://suspicious-leakey-f81b57.netlify.app/"><img class="img-caso" src="./img/Web-BlogCafe.png" alt="Sitio Web Blog DeCafé"></img></a>
+                </div>
+                <div>
+                    <a target="_blank" href="https://fantastic-profiterole-b25584.netlify.app/"><img class="img-caso" src="./img/Web_NTIC.png" alt="Sitio Web NTIC"></img></a>
+                </div>
+            </section>
+            <section>
+                <h2 id="contacto">Trabajemos Juntos</h2>
+                <form class="formulario" action="mailito:lety.jaime@gmail.com" method="post" enctype="text/plain" id="formul">
+                    <fieldset>
+                        <legend class="legend-form">Por favor llena todos los campos</legend>
+                            <div class="contenedor-campos">
+                                <div class="campo">
+                                    <label for="name">Nombre</label>
+                                    <input class="input-text" type="text" id="name" name="user_name" placeholder="Tú Nombre">
+                                </div>
+                                <div class="campo">
+                                    <label for="phone">Teléfono</label>
+                                    <input class="input-text" type="tel" id="phone" name="phone" placeholder="Tú Teléfono">
+                                </div>
+                                <div class="campo">
+                                    <label for="mail">Correo</label>
+                                    <input class="input-text" type="email" id="mail" name="user_mail" placeholder="Tú Correo">
+                                </div>
+                                <div class="campo">
+                                    <label for="msg">Asunto y Mensaje:</label>
+                                    <textarea class="input-text" id="msg" name="user_message" placeholder="¿Cómo Puedo Ayudarte?"></textarea>
+                                </div>
+                            </div> <!-- .contenedor de los campos -->
+                            <div class="alinear-derecha flex">
+                                <input class="boton w-sm-100" type="submit" value="Enviar">
+                            </div>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <section class="contacto">
+                <p class="colum-footer1">Sitio desarrollado por:</p>
+                <p class="titulo-contacto"> Leticia Jaime</p>
+                <p><img class="colum-footer1 email" src="./img/Icono-Gmail.svg" alt="Icono Gmail"></p>
+                <p><a href="mailto:lety.jaime@gmail.com">lety.jaime@gmail.com</a></p>
+                <p><img class="colum-footer1 linkedin" src="./img/Icono-Linkedin.svg" alt="Icono Linkedin"></p>
+                <p><a target="_blank" href="https://www.linkedin.com/in/leticia-jaime/">https://www.linkedin.com/in/leticia-jaime/</a></p>
+                <p class="colum-footer1 atribucion">Icono Gmail:</p>
+                <p class="atribucion"><a target="_blank" href="https://www.flaticon.com/free-icons/gmail" title="gmail icons">Gmail icons created by Freepik - Flaticon</a></p>
+                <p class="colum-footer1 atribucion">Icono LinkedIn:</p>
+                <p class="atribucion"><a target="_blank" href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Md Tanvirul Haque - Flaticon</a></p>
+            </section>
+        </footer>
+        <div class="go-top-container">
+            <div class="go-top-button">
+                <i class="arrow-up"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-up" width="48" height="48" viewBox="-5 -5 24 24" stroke-width="2.5" stroke="#ffffff"  fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <polyline points="7 11 12 6 17 11" />
+                    <polyline points="7 17 12 12 17 17" />
+                </svg>
+            </div>
+        </div>
+        <script src="gotop.js"></script>
+    </body>
+</html>
